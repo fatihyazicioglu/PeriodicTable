@@ -1,0 +1,30 @@
+table,
+tr,
+td {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+td:hover {
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40%;
+  z-index: 1;
+  transition: 1.5s;
+  transform: scale(2);
+}
+table {
+  text-align: center;
+  width: 100%;
+  outline: solid blue;
+  width: 720px;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  outline: solid red;
+  position: relative;
+}
+
+.second {
+  outline: solid lightcoral;
+}
